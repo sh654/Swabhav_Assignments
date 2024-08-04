@@ -1,0 +1,45 @@
+package com.techlabs.facade.model;
+
+public class Board {
+
+	private char[][] board;
+	private int rows;
+	private int columns;
+	
+	public Board(int rows, int columns) {
+		this.rows = rows;
+		this.columns = columns;
+		board = new char[rows][columns];
+		
+		for(int i=0; i<rows; i++) {
+			for(int j=0; j<columns; j++) {
+				board[i][j] = '-';
+			}
+		}
+	}
+	
+	
+	public void printBoard() {
+		for(int i=0; i<rows; i++) {
+			for(int j=0; j<columns; j++) {
+				System.out.print(board[i][j] + " ");
+			}
+			System.out.println();
+		}
+	}
+	
+	public boolean isValidMove(int row, int column) {
+		if(row>=0 && row<rows && column>=0 && column<columns && board[rows][columns] == '-'){
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public void makeAMove(int row, int column,char symbol) {
+		if(isValidMove(row, column)) {
+			board[row][column] = symbol;
+		}
+	}
+	
+}

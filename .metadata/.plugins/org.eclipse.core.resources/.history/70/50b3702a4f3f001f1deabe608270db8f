@@ -1,0 +1,26 @@
+package com.techlabs.iterative.test;
+
+import java.util.Scanner;
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		
+		int number = scanner.nextInt();
+		int i=1;
+		int sum=0;
+		while(i<=number) {
+			if(number%i ==0) {
+				System.out.println("Prime");
+				break;
+			}
+			else {
+				System.out.println("Not");
+			}
+			i++;
+	}
+		
+	}
+
+}

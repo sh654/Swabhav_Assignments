@@ -1,0 +1,5 @@
+package com.techlabs.component.model;
+
+public class DrawingArea {
+
+}

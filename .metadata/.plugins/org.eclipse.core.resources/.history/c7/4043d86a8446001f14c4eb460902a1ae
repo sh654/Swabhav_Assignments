@@ -1,0 +1,8 @@
+package com.techlabs.exception;
+
+public class PasswordNotValidException extends RuntimeException{
+	
+	public void getPassword(String Password) {
+		System.out.println("Enter valid password ");
+	}
+}

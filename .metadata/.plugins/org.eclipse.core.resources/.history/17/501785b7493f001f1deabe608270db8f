@@ -1,0 +1,36 @@
+package com.techlabs.iterative.test;
+
+import java.util.Scanner;
+public class ArmstrongNumberOFN {
+
+	public static void main(String args[]) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int number = scanner.nextInt();
+		
+		int sum = 0;
+		
+		int temp = number;
+		
+		int digit = 0;
+		
+		int pow = 0;
+		
+		while(number>0) {
+			pow++;
+			number = number /10;
+		} 
+		
+		while(number>0) {
+			
+			digit=digit %10;
+			sum = sum + (digit*digit*digit);
+			number = number/10;
+		}
+		if(number == sum) {
+			System.out.println("Armstrong");
+		} else {
+			System.out.println("Not");
+		}
+	}
+}

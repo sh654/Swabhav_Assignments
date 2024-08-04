@@ -1,0 +1,50 @@
+package com.techlabs.model;
+
+public class Country {
+
+	private String countryCode;
+	private String countryName;
+	private Region regionId;
+	
+	public Country(String countryCode, String countryName, Region regionId) {
+		super();
+		this.countryCode = countryCode;
+		this.countryName = countryName;
+		this.regionId = regionId;
+	}
+
+	
+	
+
+	public String getCountryCode() {
+		return countryCode;
+	}
+
+	public void setCountryCode(String countryCode) {
+		this.countryCode = countryCode;
+	}
+
+	public String getCountryName() {
+		return countryName;
+	}
+
+	public void setCountryName(String countryName) {
+		this.countryName = countryName;
+	}
+
+	public Region getRegionId() {
+		return regionId;
+	}
+
+	public void setRegionId(Region regionId) {
+		this.regionId = regionId;
+	}
+
+	@Override
+	public String toString() {
+		return "Country [countryCode=" + countryCode + ", countryName=" + countryName + ", regionId=" + regionId.getRegionId() + "]";
+	}
+	
+	
+	
+}

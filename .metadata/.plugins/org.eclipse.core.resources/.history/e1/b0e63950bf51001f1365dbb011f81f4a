@@ -1,0 +1,28 @@
+package com.techlabs.facade.model;
+
+import java.util.Scanner;
+
+public class Game {
+
+	private Board board;
+	private IPlayer xPlayer;
+	private IPlayer oPlayer;
+	private IPlayer currentPlayer;
+	
+	private int size;
+	
+	public Game(int size) {
+		this.size = size;
+	    board = new Board(size);
+	    xPlayer = new XPlayer();
+	    oPlayer = new OPlayer();
+	    currentPlayer = xPlayer;
+	  }
+	
+	public void play() {
+		Scanner scanner = new Scanner(System.in);
+		board.printBoard();
+	}
+}
+
+

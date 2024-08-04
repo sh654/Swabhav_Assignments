@@ -1,0 +1,13 @@
+package com.techlabs.builder.test;
+
+public class AccountTest {
+
+	public static List<IAccount> accounts = new ArrayList<>();
+	
+	public static void main(String args[]) {
+		
+		
+		
+	}
+	
+}

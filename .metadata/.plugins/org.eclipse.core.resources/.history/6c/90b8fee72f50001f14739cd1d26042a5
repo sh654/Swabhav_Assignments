@@ -1,0 +1,10 @@
+package com.techlabs.decorator.model;
+
+public class RibbonedHat implements HatDecorator{
+
+	public RibbonedHat(IHat hat)
+	{
+		super(hat);
+	}
+	
+}

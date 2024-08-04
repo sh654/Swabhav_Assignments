@@ -1,0 +1,7 @@
+package com.techlabs.Prototype.model;
+
+public interface IAccount extends Prototype<IAccount>{
+
+	
+	
+}

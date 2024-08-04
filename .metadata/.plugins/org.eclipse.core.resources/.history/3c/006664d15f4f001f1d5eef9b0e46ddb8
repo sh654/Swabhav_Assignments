@@ -1,0 +1,20 @@
+package com.techlabs.builder.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.techlabs.builder.model.IAccounts;
+
+public class AccountTest {
+
+	public static List<IAccounts> accounts = new ArrayList<>();
+	
+	public static void main(String args[]) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		
+	}
+	
+}

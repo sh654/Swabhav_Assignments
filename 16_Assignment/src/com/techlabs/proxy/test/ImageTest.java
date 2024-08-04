@@ -1,0 +1,27 @@
+package com.techlabs.proxy.test;
+
+import com.techlabs.proxy.model.Image;
+import com.techlabs.proxy.model.ProxyImage;
+
+public class ImageTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Image image = new ProxyImage("example.jpeg");
+		
+		// Image will be laoded from disk only when display() is called
+		image.display();
+		
+		//Image will not be loaded as it has been cached in proxy
+		image.display();
+		
+		System.out.println("=============  Another Example  ================");
+		
+		Image image2 = new ProxyImage("example.jpeg");
+		
+		image2.display();
+		image2.display();
+	}
+
+}

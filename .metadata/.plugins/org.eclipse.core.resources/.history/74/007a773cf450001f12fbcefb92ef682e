@@ -1,0 +1,5 @@
+package com.techlabs.command.test;
+
+public class CommandPatternClient {
+
+}

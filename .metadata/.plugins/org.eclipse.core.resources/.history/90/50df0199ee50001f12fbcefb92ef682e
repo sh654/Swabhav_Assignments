@@ -1,0 +1,5 @@
+package com.techlabs.iterator.model;
+
+public interface Aggregate {
+
+}

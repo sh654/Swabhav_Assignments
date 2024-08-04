@@ -1,0 +1,8 @@
+package com.techlabs.component.model;
+
+public class Triangle {
+
+	
+	//leaf implement base component and building block 
+	
+}
