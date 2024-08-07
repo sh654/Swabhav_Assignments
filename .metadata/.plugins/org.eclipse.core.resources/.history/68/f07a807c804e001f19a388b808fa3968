@@ -1,7 +1,0 @@
-package com.techlabs.model;
-
-public interface Region {
-	
-	void getRegionId();
-	
-}
