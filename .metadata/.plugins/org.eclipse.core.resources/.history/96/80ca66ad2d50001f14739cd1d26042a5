@@ -1,7 +1,0 @@
-package com.techlabs.decorator.model;
-
-public interface HatDecorator  IHat{
-
-	
-	
-}

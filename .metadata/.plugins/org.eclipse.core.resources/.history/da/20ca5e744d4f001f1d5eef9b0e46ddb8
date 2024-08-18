@@ -1,5 +1,0 @@
-package com.techlabs.builder.model;
-
-public class SavingsAccount implements AccountBuilder{
-
-}

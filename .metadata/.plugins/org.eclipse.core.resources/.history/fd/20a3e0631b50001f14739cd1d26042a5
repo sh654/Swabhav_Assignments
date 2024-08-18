@@ -1,8 +1,0 @@
-package com.techlabs.component.model;
-
-public class Triangle implements Shape{
-
-	
-	//leaf implement base component and building block 
-	
-}

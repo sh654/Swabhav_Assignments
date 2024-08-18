@@ -1,8 +1,0 @@
-package com.techlabs.iterator.model;
-
-public interface Iterator {
-
-	boolean hasNext();
-	T next();
-	
-}

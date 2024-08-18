@@ -1,7 +1,0 @@
-package com.techlabs.builder.model;
-
-public interface AccountBuilder {
-	
-	
-	
-}
